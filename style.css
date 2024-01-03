@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(234, 240, 245);
+}
+.firstName {
+  color: rgb(129, 129, 236);
+  font-size: 5rem;
+}
+.secondName {
+  font-weight: 300;
+  font-size: 3rem;
+}
+.facebookName {
+  position: absolute;
+  height: 10rem;
+  width: 43rem;
+  top: 30%;
+  left: 15%;
+}
+.userName {
+  height: 50px;
+  width: 25rem;
+  background-color: white;
+  font-size: 25px;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 5px;
+}
+.password {
+  height: 50px;
+  width: 25rem;
+  margin-top: 2rem;
+  background-color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.loginButton {
+  margin-top: 2rem;
+  font-size: 2rem;
+  height: 50px;
+  width: 25rem;
+  background-color: rgb(94, 94, 224);
+  color: white;
+  border-radius: 10px;
+}
+.forgotLink {
+  margin-top: 4rem;
+  font-size: 20px;
+}
+.createAccount {
+  font-size: 2rem;
+  margin-top: 4rem;
+  background-color: rgb(43, 134, 43);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.login {
+  height: 25rem;
+  width: 30rem;
+  border: 2px black solid;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
