@@ -54,7 +54,7 @@ body {
 }
 .createAccount {
   font-size: 2rem;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   background-color: rgb(43, 134, 43);
   color: white;
   padding: 5px;
@@ -74,4 +74,32 @@ body {
   left: 65%;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 10px gray;
+}
+.container {
+  position: relative;
+}
+.or::before {
+  content: "";
+  height: 2px;
+  width: 45%;
+  background-color: grey;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.or::after {
+  content: "";
+  height: 2px;
+  width: 45%;
+  background-color: grey;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .facebookName {
+    font-size: 20px;
+  }
 }
